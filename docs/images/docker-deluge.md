@@ -31,7 +31,7 @@ description: "[Deluge](http://deluge-torrent.org/) is a lightweight, Free Softwa
 * Plugin System
 * Much more...
 
-[![deluge](https://raw.githubusercontent.com/linuxserver/docker-templates/blob/master/linuxserver.io/img/deluge-logo.png)](http://deluge-torrent.org/)
+[![deluge](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/deluge-logo.png)](http://deluge-torrent.org/)
 
 ## Supported Architectures
 
