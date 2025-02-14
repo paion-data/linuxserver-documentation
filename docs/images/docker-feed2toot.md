@@ -21,7 +21,7 @@ description: "[Feed2toot](https://gitlab.com/chaica/feed2toot) automatically par
 
 [Feed2toot](https://gitlab.com/chaica/feed2toot) automatically parses rss feeds, identifies new posts and posts them on the Mastodon social network.
 
-[![feed2toot](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/feed2toot-banner.png)](https://gitlab.com/chaica/feed2toot)
+[![feed2toot]()](https://gitlab.com/chaica/feed2toot)
 
 ## Supported Architectures
 
