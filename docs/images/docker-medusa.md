@@ -39,7 +39,7 @@ The architectures supported by this image are:
 
 ## Application Setup
 
-Web interface is at `<your ip>:8081`. 
+Web interface is at `<your ip>:8081`.
 
 Set paths for downloads, tv-shows to match docker mappings via the webui, for more information check out [Medusa](https://pymedusa.com/).
 
@@ -300,36 +300,33 @@ To help with development, we generate this dependency graph.
       init-migrations -> init-adduser
       init-os-end -> init-config
       init-config -> init-config-end
+      init-crontab-config -> init-config-end
       init-medusa-config -> init-config-end
-      init-os-end -> init-crontab-config
+      init-config -> init-crontab-config
       init-mods-end -> init-custom-files
       base -> init-envfile
       init-config -> init-medusa-config
       base -> init-migrations
-      base -> init-mods
       init-config-end -> init-mods
-      init-mods -> init-mods-end
       init-mods-package-install -> init-mods-end
       init-mods -> init-mods-package-install
-      base -> init-os-end
       init-adduser -> init-os-end
       init-envfile -> init-os-end
-      init-migrations -> init-os-end
       init-custom-files -> init-services
-      init-mods-end -> init-services
       init-services -> svc-cron
       svc-cron -> legacy-services
       init-services -> svc-medusa
       svc-medusa -> legacy-services
     }
     Base Images: {
-      "baseimage-alpine:3.19"
+      "baseimage-alpine:3.21"
     }
     "medusa:latest" <- Base Images
     ```
 
 ## Versions
 
+* **02.03.25:** - Rebase to Alpine 3.21.
 * **08.01.24:** - Rebase to Alpine 3.19.
 * **07.10.23:** - Install unrar from [linuxserver repo](https://github.com/linuxserver/docker-unrar).
 * **10.08.23:** - Bump unrar to 6.2.10.
