@@ -479,6 +479,7 @@ To help with development, we generate this dependency graph.
 
 ## Versions
 
+* **12.03.25:** - Clear singletons one launch to properly support persistance.
 * **13.02.24:** - Remove manual codecs ingestion.
 * **10.02.24:** - Update Readme with new env vars and ingest proper PWA icon.
 * **06.01.24:** - Rebase to Debian Bookworm.
