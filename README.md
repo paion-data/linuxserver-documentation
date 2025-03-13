@@ -1,6 +1,6 @@
 !!! warning
-    This site (linuxserver.qubitpi.org) is NOT the official LinuxServer.io documentation and is used for personal study
-    only. The official LinuxServer.io documentation is at [docs.linuxserver.io](https://docs.linuxserver.io/)
+    This site (linuxserver.qubitpi.org) is NOT the official LinuxServer.io documentation and is used as the Knowledge
+    Hub for Paion Data's dev teams only. The official LinuxServer.io documentation is at [docs.linuxserver.io](https://docs.linuxserver.io/)
 
 # Introduction
 
