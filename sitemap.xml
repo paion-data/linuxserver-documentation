@@ -1021,6 +1021,10 @@
          <lastmod>2025-03-13</lastmod>
     </url>
     <url>
+         <loc>https://docs.linuxserver.io/images/docker-ubuntu-base/</loc>
+         <lastmod>2025-03-13</lastmod>
+    </url>
+    <url>
          <loc>https://docs.linuxserver.io/images/docker-ungoogled-chromium/</loc>
          <lastmod>2025-03-13</lastmod>
     </url>
