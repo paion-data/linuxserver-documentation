@@ -6,7 +6,7 @@ paiondatahub/ubuntu-base
 [Ubuntu Base][Docker Hub URL] is the base Docker image for [all of Paion Data's container images](https://hub.docker.com/u/paiondatahub)
 
 <div align="center">
-  <img src="https://github.com/paion-data/.github/blob/master/img/logo-square.png?raw=true" width="10%"  alt="Paion Data Logo"/>
+  <img src="https://github.com/paion-data/.github/blob/master/img/logo-square.png?raw=true" width="20%"  alt="Paion Data Logo"/>
 </div>
 
 Usage
