@@ -60,4 +60,4 @@ for testing:
 
 [Mailhog] is an excellent tool to use and will make your life a lot easier when doing SMTP testing.
 
-[Mailhog]: https://mailhog.qubitpi.org/
+[Mailhog]: https://mailhog.paion-data.dev/
