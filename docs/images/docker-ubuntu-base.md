@@ -9,6 +9,13 @@ paiondatahub/ubuntu-base
   <img src="https://github.com/paion-data/.github/blob/master/img/logo-square.png?raw=true" width="20%"  alt="Paion Data Logo"/>
 </div>
 
+The Ubuntu version in this image is 22.04. In addition, the following extra packages have been pre-installed in this
+image:
+
+- software-properties-common
+- wget
+- curl
+
 Usage
 -----
 
